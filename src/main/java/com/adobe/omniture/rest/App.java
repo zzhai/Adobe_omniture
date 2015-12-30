@@ -50,6 +50,7 @@ public class App {
 				basePath = mapper.readValue(c, String.class);
 			}
 			
+			// Many parameters are hard coded inside invokeReportQueue method, you should customize them
 
 			response = invokeReportQueue(client);
 
